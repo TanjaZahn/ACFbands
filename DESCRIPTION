@@ -1,0 +1,18 @@
+Package: ACFbands
+Type: Package
+Title: Simultaneous Inference Bands for Autocorrelations
+Version: 0.0.1
+Authors@R: c(
+    person("Uwe", "Hassler", role = "aut"),
+    person("Marc-Oliver", "Pohle", role = "aut"),
+    person("Tanja", "Zahn", email = "tzahn@wiwi.uni-frankfurt.de", role = c("cre", "aut")))
+Description: The package generates simultaneous signficance and confidence bands for autocorrelation functions for stationaty time series and regression residuals.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dplyr,
+    ggplot2,
+    mvtnorm,
+    stats

@@ -17,6 +17,9 @@ library(usethis)  # Automate Package and Project Setup
 # available::available("UQforecasts", browse = FALSE)
 # available::available("UQeval", browse = FALSE)
 
+# Don't show specific files ----------------------------------------------------
+
+use_git_ignore("notebook*", directory = ".")
 
 # Importing packages ----------------------------------------------------------
 

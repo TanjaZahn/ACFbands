@@ -1,21 +1,22 @@
-#' @title Helper function: Plot autocorrelations with inference bands
+#' @title Plot autocorrelations with inference bands.
 #'
-#' @description This helper function is used in the three main functions to create a plot. 
+#' @description This function is used in the three main functions to create a plot. 
 #'
-#' @param color color of the lines.
-#' @param segment logical. Determines whether sample autocorrelations are plotted are vertically  (`TRUE`) or horizontally (`FALSE`). The first is used for significance bands, the latter for confidence bands.
-#' @param H maximum number of lags for ACF.
 #' @param rho_hat A vector of length `H` containing the sample autocorrelations.
 #' @param lb A vector of length `H` containing the lower bound of the inference band.
 #' @param ub A vector of length `H` containing the upper bound of the inference band.
+#' @param color color of the lines.
+#' @param segment logical. Determines whether sample autocorrelations are plotted are vertically  (`TRUE`) or horizontally (`FALSE`). The first is used for significance bands, the latter for confidence bands.
+
 #'
 #' @return a vector of length `H` containing the estimated autocorrelations at each lag.
 #' 
+#' @export
 
 
-make_plot <- function(color, segment, H, rho_hat, lb, ub){
+make_plot <- function(rho_hat, lb, ub, color, segment){
   
-  df <- data.frame(h = 1:H, 
+  df <- data.frame(h = 1:length(rho_hat), 
                    rho_hat = rho_hat,
                    lb =  lb,
                    ub =  ub)

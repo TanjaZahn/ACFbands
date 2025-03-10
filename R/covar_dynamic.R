@@ -14,7 +14,7 @@
 #' \item{`shrinkage_lag` The lag `k`from which on elements of the `H x H` plug-in estimator has been set equal to the identity matrix. If `NA`, no shrinkage was necessary to ensure positive definiteness of the plug-in estimator.}
 #' }
 #' 
-#' 
+#' @export
 #' 
 
 

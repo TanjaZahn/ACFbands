@@ -8,7 +8,7 @@
 #'
 #' @return numeric `tau` quantile.
 #' 
-#' 
+#' @export
 #' 
 
 equi_quantile <- function(Sigma, tau){

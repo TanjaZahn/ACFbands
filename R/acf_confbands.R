@@ -103,7 +103,7 @@ acf_confbands <- function(y, H = 25, type = "sup-t", L = sqrt(length(y)), alpha 
   
   if(plot == TRUE){
     
-    out <- make_plot(segment = FALSE, color = "chartreuse3",  H = H, rho_hat = rho_hat, lb = lb, ub = ub)
+    out <- make_plot(segment = FALSE, color = "chartreuse3",  rho_hat = rho_hat, lb = lb, ub = ub)
     
   }else{
     if(type == "sup-t"){ 

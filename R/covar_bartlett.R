@@ -10,7 +10,8 @@
 #' 
 #'
 #' @return Either the covariance matrix of dimension `H x H`(default) or vector of length `H`containing the diagonal elements of the covariance matrix if `diag_only`has been set to `TRUE`.
-
+#' 
+#' @export
 
 covar_bartlett <- function(y, H, L, diag_only = FALSE){
   

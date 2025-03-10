@@ -97,7 +97,7 @@ acf_sigbands_dyn <- function(fit, H = 25, type = "simultaneous", error = "hom", 
   
   if(plot == TRUE){
     
-    out <- make_plot(segment = TRUE, color = "blue4", H = H, rho_hat = rho_hat, lb = lb, ub = ub)
+    out <- make_plot(segment = TRUE, color = "blue4", rho_hat = rho_hat, lb = lb, ub = ub)
     
   }else{
     

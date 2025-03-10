@@ -8,6 +8,7 @@
 #'
 #' @return a vector of length `H` containing the estimated autocorrelations at each lag.
 #' 
+#' @export
 
 
 

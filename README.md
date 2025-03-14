@@ -130,14 +130,14 @@ specific null hypothesis:
 ``` r
 set.seed(42)
 
-## Plot autocorrelations with with sup-t confidence bands using default settings
+## Plot autocorrelations with sup-t confidence bands using default settings
 acf_confbands(y, H = 25, type = "sup-t", L = sqrt(length(y)), alpha = 0.05, plot = TRUE, B_hat = NULL, B_hat_diag = NULL)
 ```
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" /> The
 functions `acf_sigbands` and `acf_confbands`can also be used on
 regression residuals from a static regression. As a toy example, we
-create observations from an distributed lag model and run a regression.
+create observations from a distributed lag model and run a regression.
 Afterwards, we create confidence bands for the autocorrelations for the
 residuals.
 

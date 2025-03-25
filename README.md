@@ -8,8 +8,9 @@
 
 ## Overview
 
-This package accompanies the paper *“Simultaneous Inference Bands for
-Autocorrelations”* by Uwe Hassler, Marc-Oliver Pohle and Tanja Zahn.
+This package accompanies the paper [“Simultaneous Inference Bands for
+Autocorrelations”](https://arxiv.org/abs/2503.18560) by Uwe Hassler,
+Marc-Oliver Pohle and Tanja Zahn.
 
 The goal of ACFbands is to provide *valid simultaneous inference for a
 vector of autocorrelations* of a time series or of a series of
@@ -49,6 +50,13 @@ code:
 # install.packages("devtools")
 library(devtools)
 install_github("TanjaZahn/ACFbands")
+#> Warning: kann alte Installation von Paket 'cli' nicht entfernen
+#> Warning in file.copy(savedcopy, lib, recursive = TRUE): Problem
+#> C:\Users\tazahn\AppData\Local\Programs\R\R-4.4.2\library\00LOCK\cli\libs\x64\cli.dll
+#> nach
+#> C:\Users\tazahn\AppData\Local\Programs\R\R-4.4.2\library\cli\libs\x64\cli.dll
+#> zu kopieren: Permission denied
+#> Warning: 'cli' wiederhergestellt
 library(ACFbands)
 ```
 

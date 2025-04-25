@@ -6,7 +6,7 @@ Authors@R: c(
     person("Uwe", "Hassler", role = "aut"),
     person("Marc-Oliver", "Pohle", role = "aut"),
     person("Tanja", "Zahn", email = "tzahn@wiwi.uni-frankfurt.de", role = c("cre", "aut")))
-Description: The package generates simultaneous signficance and confidence bands for autocorrelation functions for stationaty time series and regression residuals.
+Description: The package generates simultaneous significance and confidence bands for autocorrelation functions for stationary time series and regression residuals.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
